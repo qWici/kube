@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: test-app
-          image: devkucher/test-app:latest
+          image: devkucher/test-app:v0.0.1
           ports:
-            - containerPort: 3000
+            - containerPort: 80
